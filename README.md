@@ -1,6 +1,13 @@
 <p align="center"><img src="docs/assets/cover.svg" alt="WebCraft: from topic research to production assets" width="100%"></p>
 
 <p align="center">
+  <a href="https://github.com/MohamedYassineTurki/webcraft-content-automation/actions/workflows/ci.yml"><img src="https://github.com/MohamedYassineTurki/webcraft-content-automation/actions/workflows/ci.yml/badge.svg" alt="Windows and Linux verification"></a>
+  <img src="https://img.shields.io/badge/Node.js-22%2B-417e38" alt="Node.js 22 or newer">
+  <img src="https://img.shields.io/badge/Python-3.12%2B-336c98" alt="Python 3.12 or newer">
+  <a href="LICENSE"><img src="https://img.shields.io/badge/license-MIT-555" alt="MIT license"></a>
+</p>
+
+<p align="center">
   <a href="https://www.youtube.com/@WebCraft25">YouTube channel</a> &nbsp; / &nbsp;
   <a href="docs/case-study.md">Engineering case study</a> &nbsp; / &nbsp;
   <a href="docs/setup.md">Setup guide</a> &nbsp; / &nbsp;
