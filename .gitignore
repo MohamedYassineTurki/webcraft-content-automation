@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+**/__pycache__/
+*.pyc
+.venv/
+.tts-runtime/
+outputs/
+coverage/
+*.mp3
+*.wav
+*.webm
+*.mp4
+.DS_Store
+Thumbs.db
+.run.lock/

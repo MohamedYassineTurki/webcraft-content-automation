@@ -1,0 +1,7 @@
+{
+  "name": "webcraft-legacy-pipeline",
+  "private": true,
+  "type": "module",
+  "description": "Historical research, script-generation and screen-recording modules; not the default worker.",
+  "dependencies": { "openai": "4.104.0", "playwright": "1.61.1" }
+}

@@ -1,0 +1,55 @@
+WebCraft offline demo transcript
+Captured 2026-11-07. Timestamped paths normalized for readability.
+Source: npm run demo and npm run demo:failure.
+These demonstrations use synthetic rows and simulated audio, not real speech.
+
+--- SUCCESS SCENARIO ---
+
+WEBCRAFT / OFFLINE DEMO
+Synthetic rows and simulated speech. No credentials, APIs, real audio, or Notion writes.
+
+Queue: 2 row(s), oldest first.
+
+Job 1/2: How to Upscale an Image: A Practical Walkthrough
+[1/5] Creating job folder
+[2/5] Updating status to Generating
+[3/5] Writing video-info.txt
+[4/5] Generating voiceover
+[5/5] Updating status to Done
+Done: <timestamp>-how-to-upscale-an-image-a-practical-walkthrough-sample-0
+
+Job 2/2: Screen Recording Basics: A Simple Tutorial
+[1/5] Creating job folder
+[2/5] Updating status to Generating
+[3/5] Writing video-info.txt
+[4/5] Generating voiceover
+[5/5] Updating status to Done
+Done: <timestamp>-screen-recording-basics-a-simple-tutorial-sample-0
+
+Finished: 2 done, 0 failed, 0 remaining.
+
+Final queue states: {
+  "sample-001": "Done",
+  "sample-002": "Done"
+}
+
+--- FAILURE SCENARIO ---
+
+WEBCRAFT / OFFLINE DEMO
+Synthetic rows and simulated speech. No credentials, APIs, real audio, or Notion writes.
+
+Queue: 2 row(s), oldest first.
+
+Job 1/2: How to Upscale an Image: A Practical Walkthrough
+[1/5] Creating job folder
+[2/5] Updating status to Generating
+[3/5] Writing video-info.txt
+[4/5] Generating voiceover
+Stopped: Simulated provider failure. Later rows must remain Ready.
+
+Finished: 0 done, 1 failed, 1 remaining.
+
+Final queue states: {
+  "sample-001": "Error",
+  "sample-002": "Ready"
+}

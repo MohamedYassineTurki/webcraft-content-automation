@@ -1,0 +1,4 @@
+[
+  {"id":"sample-001","title":"How to Upscale an Image: A Practical Walkthrough","website":"example.com","reference":"https://example.com/reference","script":"Start with an image you own. Open the image tool and upload your file. Choose the output resolution, inspect fine details in the preview, and compare the result with your original. When you are satisfied, download the image and check its dimensions. This sample script is fictional and is included only to demonstrate the production workflow."},
+  {"id":"sample-002","title":"Screen Recording Basics: A Simple Tutorial","website":"example.org","reference":"Manual recording checklist","script":"Choose the area you want to record, check your microphone, and close private windows. Record a short sample before capturing the full tutorial. Review the result, remove mistakes in your editor, and export your finished video."}
+]
